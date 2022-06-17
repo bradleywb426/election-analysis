@@ -17,8 +17,9 @@ The Colorado Board of Elections has requested help in auditing the election resu
 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-- How many votes were cast in this congressional election?
-  - 369711
+Based on the analysis of the election audit:
+
+- A total of 369,711 votes were cast in this district for this congressional election
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
   - Jefferson: 10.5% (38,855)
