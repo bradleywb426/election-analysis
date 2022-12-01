@@ -21,7 +21,10 @@ Based on the analysis of the election audit:
 
 - A ***total of 369,711 votes*** were cast in this district for this congressional election.
   - This was determined by simply adding each new vote to a total vote variable
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_2.png width="300">
+
+<p align="center">
+<img src="https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_2.png" alt="Code to Determine Total Vote Count" width="300">
+</p>
 
 - The breakdown of votes by county was:
   - ***Jefferson county*** casted ***38,855 votes***, which was ***10.5% of the total votes***.
@@ -29,22 +32,34 @@ Based on the analysis of the election audit:
   - ***Arapahoe county*** casted ***24,801 votes***, which was ***6.7% of the total votes***.
    - The breakdown of votes by county was determined using a nested for loop that would go through every row of data and add a county to a list of counties if it was not already present, and then add any votes cast in said county to a county total
    - The percentage was then calculated by dividing the votes per county by the total votes for the election
-   - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_1.png width="400">
+
+<p align="center">
+<img src="https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_1.png" alt="Code to Show Breakdown Votes by County" width="400">
+</p>
 
 - ***Denver county*** had the ***largest voter turnout*** out of all counties, with 306,055 total votes.
   - The largest voter turnout was determined by checking the turnout with a given county against largest turnout variables, and updated the variable to match the checked county if the checked county has a larger turnout
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_3.png width="400">
+
+<p align="center">
+<img src="https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_3.png" alt="Code to Show County with Largest Voter Turnout" width="400">
+</p>
 
 - The breakdown of votes by candidates was:
   - ***Charles Casper Stockham*** won ***85,213 votes***, which was ***23.0% of the total votes***.
   - ***Diana DeGette*** won ***272,892 votes***, which was ***73.8% of the total votes***.
   - ***Raymon Anthony Doane*** won ***11,606 votes***, which was ***3.1% of the total votes***.
   - The breakdown of votes by candidates was determined using a nested for loop that went through every row of data and would add any unique candidate names to a list, and then add any votes cast for the candidate to their respective totals; while the percentages were calculated by dividing each candidates votes by the total votes
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_4.png width="450">
+
+<p align="center">
+<img src="https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_4.png" alt="Code to Show Vote Breakdown by Candidates" width="450">
+</p>
 
 - The ***winner of the elections was Diana DeGette***, who received ***272,892 votes*** or ***73.8% of the total votes***.
   - The winner of the election was determined by checking a candidates vote count and percentage against the current winning count and percentage, and updating the winning stats if a candidate has a higher vote count and percentage
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_5.png width="600">
+
+<p align="center">
+<img src="https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_5.png" alt="Code to Show Election Winner" width="600">
+</p>
 
 ## Summary
 
